@@ -29,26 +29,26 @@ flarum-tags:
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Manage the list of tags available to organise discussions with.
+      tags_text: Spravuj seznam tagů pomocí kterých můžeš organizovat diskuze.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       allow_edit_tags_label: Povolit úpravu štítků
-      restrict_by_tag_heading: Restrict by Tag
-      tag_discussions_label: Tag discussions
+      restrict_by_tag_heading: Omezit Tagem
+      tag_discussions_label: Otagovat diskuze
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
-      range_separator_text: " to "
-      required_primary_heading: Required Number of Primary Tags
-      required_primary_text: Enter the minimum and maximum number of primary tags that may be applied to a discussion.
-      required_secondary_heading: Required Number of Secondary Tags
-      required_secondary_text: Enter the minimum and maximum number of secondary tags that may be applied to a discussion.
+      range_separator_text: " do "
+      required_primary_heading: Požadovaný Počet Hlavních Tagů
+      required_primary_text: Zvol minimální a maximální počet hlavních tagů, které mohou být přiděleny k diskuzi.
+      required_secondary_heading: Požadovaný Počet Vedlejších Tagů
+      required_secondary_text: Zvol minimální a maximální počet vedlejších tagů, které mohou být přiděleny k diskuzi.
       title: Nastavení štítků
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "Tags are used to categorize discussions. Primary tags are like traditional forum categories: they can be arranged in a two-level hierarchy. Secondary tags do not have hierarchy or order, and are useful for micro-categorization."
+      about_tags_text: "Tagy se používají ke kategorizaci diskuzí. Hlavní tagy slouží jako tradiční kategorie na fórech: mohou být uspořádány do dvouúrovňové hierarchie. Vedlejší tagy nemají hierarchii nebo řád a jsou užitečné pro mikro-kategorizaci."
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Hlavní štítky
       secondary_heading: Vedlejší štítky
@@ -74,7 +74,7 @@ flarum-tags:
       edit_tags_button: Upravit štítky
 
     header:
-      back_to_tags_tooltip: Back to Tag List
+      back_to_tags_tooltip: Zpět na Seznam Tagů
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
