@@ -10,7 +10,7 @@ core:
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
       developer_text: "Pokud jsi vývojář, můžeš si <a>přečíst dokumentaci</a> a zkusit si vytvořit vlastní rozšíření."
-      install_text: "V mezičase se můžeš podívat na existující rozšíření na <a>Flarum Community site</a> a nainstalovat je manuálně pomocí Composeru."
+      install_text: "V mezičase se můžeš podívat na existující rozšíření na <a>webu Flarum komunity</a> a nainstalovat je manuálně pomocí Composeru."
       temporary_text: "Jednoho dne v ne tak daleké budoucnosti, ti tento dialog dovolí jednoduše přidat rozšíření do tvého fóra. Ekosystém tvoříme právě teď!"
       title: Přidat rozšíření
 
@@ -18,7 +18,7 @@ core:
     appearance:
       colored_header_label: Barevné záhlaví
       colors_heading: Barvy
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
+      colors_text: "Zvol dvě barvy, kterými nastyluješ své fórum. První bude použita pro zvýraznění, zatímco druhá bude použita jako barva pozadí prvků."
       custom_footer_heading: Vlastní zápatí
       custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: Vlastní záhlaví
@@ -72,7 +72,7 @@ core:
     edit_group:
       color_label: core.ref.color
       delete_button: Smazat skupinu
-      delete_confirmation: "Jsi si jistý, že chceš smazat tuto skupinu? Její členi nebudou smazáni."
+      delete_confirmation: "Opravdu chceš smazat tuto skupinu? Její členové odstraněni nebudou."
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: Název
@@ -431,7 +431,7 @@ core:
       generic_message: "Jejda, něco se pokazilo. Obnov prosím stránku a zkus to znovu."
       not_found_message: Požadovaný zdroj nebyl nalezen.
       permission_denied_message: Na tuto operaci nemáte dostatečná práva.
-      rate_limit_exceeded_message: Jste moc rychlý, zpomalte
+      rate_limit_exceeded_message: Jsi moc rychlý, zpomal.
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -453,8 +453,8 @@ core:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
+      javascript_disabled_message: Tento web funguje nejlépe v moderním prohlížeči se zapnutým JavaScriptem.
+      load_error_message: Něco se pokazilo, když jsi se pokusil načíst plnou verzi tohoto webu. Zkus stránku natvrdo obnovit.
       loading_text: Načítání…
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
@@ -540,9 +540,9 @@ core:
     color: Barva                                 # Referenced by flarum-tags.yml
     confirm_password: Potvrdit heslo
     confirmation_email_sent: "Poslali jsme potvrzovací zprávu na adresu {email}. Pokud brzy nedorazí, zkus se kouknout do složky s nevyžádanou poštou."
-    custom_footer_text: Add HTML to be displayed at the very bottom of the page.
+    custom_footer_text: Přidej HTML, která se zobrazí na samém konci stránky.
     custom_footer_title: Upravit vlastní zápatí
-    custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+    custom_header_text: "Přidej HTML, které se zobrazí na úplném začátku stránky, nad Flarum záhlavím."
     custom_header_title: Upravit vlastní záhlaví
     delete: Smazat
     delete_forever: Smazat navždy
