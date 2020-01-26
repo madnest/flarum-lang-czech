@@ -9,29 +9,29 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: Suspend users
+      suspend_users_label: Zabokovat uživatele
 
   # Translations in this namespace are used by the forum user interface.
   forum:
     # These translations are used in the suspension notifications
     notifications:
-      user_suspended_text: "{username} suspended you for {timeReadable}"
-      user_unsuspended_text: "{username} unsuspended you"
+      user_suspended_text: "{username} tě zablokoval za {timeReadable}"
+      user_unsuspended_text: "{username} tě odblokoval"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: Suspended indefinitely
-      limited_time_days_text: " days"
-      limited_time_label: Suspended for a limited time...
-      not_suspended_label: Not suspended
-      status_heading: Suspension Status
+      indefinitely_label: Zablokován navždy
+      limited_time_days_text: " dnů"
+      limited_time_label: Zablokován na určitý čas...
+      not_suspended_label: Nezablokován
+      status_heading: Status Zablokování
       submit_button: => core.ref.save_changes
-      title: "Suspend {username}"
+      title: "Zablokovat {username}"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: Suspended
+      suspended_tooltip: Zablokován
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: Suspend
+      suspend_button: Zablokovat
