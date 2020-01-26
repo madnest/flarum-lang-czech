@@ -5,7 +5,7 @@
 Run the following command in the folder where Flarum is installed:
 
 ```shell
-composer require madnest/flarum-lang-czech:dev-master
+composer require madnest/flarum-lang-czech
 ```
 
 ---
