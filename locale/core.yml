@@ -117,9 +117,9 @@ core:
     # These translations are used on default extension pages.
     extension:
       confirm_uninstall: Odinstalováním se smažou všechny záznamy v databázi a soubory související s rozšířením. Opravdu chceš pokračovat?
-      disabled: Deaktivovat
-      enabled: Povolit
-      enable_to_see: Povolit rozšíření zobrazovat a měnit nastavení.
+      disabled: Neaktivní
+      enabled: Aktivní
+      enable_to_see: Povolit zobrazovat rozšíření a měnit nastavení.
       info_links:
         discuss: Discuss
         documentation: Dokumentace
