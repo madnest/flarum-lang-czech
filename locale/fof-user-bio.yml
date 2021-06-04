@@ -7,9 +7,9 @@ fof-user-bio:
     permission:
       editAny: 'Upravit jakékoliv bio'
       editOwn: 'Upravit vlastní bio'
-      view: 'Zobrazit životopis'
+      view: 'Zobrazit bio'
     setting:
       bioLimit: 'Omezení počtu znaků v bio'
   forum:
     userbioPlaceholder: 'Napište něco o sobě'
-    userbioPlaceholderOtherUser: 'Napište životopis pro {username}'
+    userbioPlaceholderOtherUser: 'Napište bio pro {username}'

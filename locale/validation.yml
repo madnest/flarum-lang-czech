@@ -68,7 +68,7 @@ validation:
     string: 'Pole :attribute musí být méně než :value znaků.'
   lte:
     array: 'Pole :attribute nesmí mít více než :value položek.'
-    file: 'Pole :attribute musí být menší nebo rovno :value kilobytů.'
+    file: 'Pole :attribute musí být menší nebo rovno :value kilobajtů.'
     numeric: 'Pole :attribute musí být menší nebo rovno :value.'
     string: 'Pole :attribute musí být menší nebo rovno :value znaků.'
   max:
@@ -90,6 +90,8 @@ validation:
   password: 'Heslo je nesprávné.'
   present: 'Pole :attribute musí být přítomno.'
   prohibited: 'Pole :atribut je zakázáno.'
+  prohibited_if: 'Pole :attribute je zakázáno, když :other je :value.'
+  prohibited_unless: 'Pole :attribute je zakázáno, pokud :other není :value.'
   regex: 'Formát pole :attribute není platný.'
   required: 'Pole :attribute je vyžadováno.'
   required_if: 'Pole :attribute je vyžadováno když :other je :value.'

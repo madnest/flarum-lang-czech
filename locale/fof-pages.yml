@@ -15,7 +15,7 @@ fof-pages:
       hidden_label: 'Uložit jako koncept'
       html_label: 'Povolit HTML'
       restricted_label: 'Omezit přístup (na kartě Oprávnění nakonfigurujte, kdo má přístup)'
-      set_as_home_page_confirmation: 'Jste si jisti, že chcete tuto stránku nastavit jako domovskou stránku?'
+      set_as_home_page_confirmation: 'Jsi si jist, že chceš tuto stránku nastavit jako domovskou stránku?'
       set_as_home_page_done: 'Domovská stránka byla aktualizována'
       slug_label: '=> fof-pages.ref.slug'
       slug_placeholder: '=> fof-pages.ref.slug'
