@@ -14,7 +14,7 @@ core:
       custom_header_text: '=> core.ref.custom_header_text'
       custom_styles_heading: 'Vlastní styly'
       custom_styles_text: 'Uprav si vzhled svého fóra přidáním vlastního LESS/CSS kódu, který bude použit nad defaultními Flarum styly.'
-      dark_mode_label: 'Dark Mode'
+      dark_mode_label: 'Tmavý režim'
       description: 'Uprav si barvy, loga a další proměnné svého fóra.'
       edit_css_button: 'Upravit vlastní CSS'
       edit_footer_button: '=> core.ref.custom_footer_title'
@@ -44,7 +44,7 @@ core:
       welcome_banner_heading: 'Uvítací banner'
       welcome_banner_text: 'Nastav si text uvítacího banneru, který se zobrazí na všech diskuzních stránkách. Využij ho pro přivítání hostů na fóru.'
     dashboard:
-      clear_cache_button: 'Smazat Cache'
+      clear_cache_button: 'Vymazat mezipaměť'
       description: 'Přehled vašeho fóra.'
       title: Nástěnka
       tools_button: Nástroje
@@ -107,8 +107,8 @@ core:
         source: Zdroj
         support: Podpora
         website: Web
-      no_permissions: 'Žádné oprávnění'
-      no_settings: 'Žádná nastavení'
+      no_permissions: 'Toto rozšíření nemá žádná oprávnění.'
+      no_settings: 'Toto rozšíření nemá žádné nastavení.'
       open_modal: 'Otevřít nastavení'
       permissions_title: Oprávnění
       saved_message: 'Změny byly uloženy.'
@@ -125,6 +125,7 @@ core:
       basics_title: '=> core.admin.basics.description'
       categories:
         authentication: Autentizace
+        core: 'Základní Nastavení'
         discussion: Diskuze
         feature: Funkce
         formatting: Formátování
@@ -139,6 +140,8 @@ core:
       permissions_button: '=> core.admin.permissions.title'
       permissions_title: '=> core.admin.permissions.description'
       search_placeholder: 'Vyhledat rozšíření'
+      userlist_button: '=> core.admin.users.title'
+      userlist_title: '=> core.admin.users.description'
     permissions:
       allow_post_editing_label: 'Povolit úpravu příspěvků'
       allow_renaming_label: 'Povolit zbývající'
@@ -149,6 +152,8 @@ core:
       delete_posts_label: 'Smazat příspěvky'
       description: 'Nastav si, kdo může co vidět a provádět na fóru.'
       edit_posts_label: 'Upravit přízpěvky'
+      edit_users_credentials_label: 'Úprava přihlašovacích údajů'
+      edit_users_groups_label: 'Úprava uživatelských skupin'
       edit_users_label: 'Upravit uživatele'
       global_heading: Globální
       moderate_heading: Moderovat
@@ -158,10 +163,12 @@ core:
       read_heading: Číst
       rename_discussions_label: 'Přejmenovat diskuzi'
       reply_to_discussions_label: 'Odpovědět v diskuzi'
+      search_users_label: 'Vyhledávání uživatelů'
       sign_up_label: Registrace
       start_discussions_label: 'Začít diskuzi'
       title: Oprávnění
       view_discussions_label: 'Zobrazit diskuzi'
+      view_forum_label: 'Zobrazení fóra (dizkuze a uživatele)'
       view_hidden_groups_label: 'Zobrazit schované odznáčky skupiny'
       view_last_seen_at_label: 'Vždy zobrazit poslední čas zobrazení'
       view_post_ips_label: 'Zobrazit IP adresu příspěvku'
@@ -176,10 +183,36 @@ core:
       signup_closed_button: Uzavřena
       signup_open_button: Otevřena
     settings:
+      saved_message: 'Změny byly uloženy.'
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
       upload_button: 'Zvolit obrázek…'
+    users:
+      description: 'Stránkovaný seznam všech uživatelů vašeho fóra.'
+      grid:
+        columns:
+          edit_user:
+            tooltip: 'Upravit {uživatelské jméno}'
+          email:
+            visibility_hide: 'Skrýt e-mailovou adresu'
+            visibility_show: 'Zobrazit e-mailovou adresu'
+          group_badges:
+            no_badges: Žádné
+            title: Skupiny
+          join_time:
+            title: 'Připojil se'
+          user_id:
+            title: ID
+          username:
+            title: '=> core.ref.username'
+        invalid_column_content: Neplatný
+      pagination:
+        back_button: 'Předchozí stránka'
+        next_button: 'Další stránka'
+        page_counter: 'Strana {current} z {total}'
+      title: '=> core.ref.users'
+      total_users: 'Celkový počet uživatelů: {count}'
   api:
     invalid_username_message: 'Přezdívka smí obsahovat pouze písmena, čísla a pomlčky.'
   email:
@@ -289,6 +322,7 @@ core:
       newest_button: Nejnovější
       oldest_button: Nejstarší
       relevance_button: Nejrelevantnější
+      toggle_dropdown_accessible_label: 'Změna řazení seznamu diskuzí'
       top_button: Nejlepší
     log_in:
       forgot_password_link: 'Zapomenuté heslo?'
@@ -305,6 +339,7 @@ core:
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       mark_as_read_tooltip: 'Označit jako přečteno'
       title: '=> core.ref.notifications'
+      toggle_dropdown_accessible_label: 'Zobrazit oznámení'
       tooltip: '=> core.ref.notifications'
     post:
       edited_text: Upraveno
@@ -390,6 +425,17 @@ core:
   lib:
     badge:
       hidden_tooltip: Schované
+    edit_user:
+      email_heading: '=> core.ref.email'
+      email_label: '=> core.ref.email'
+      groups_heading: Skupiny
+      password_heading: '=> core.ref.password'
+      password_label: '=> core.ref.password'
+      set_password_label: 'Nastavit nové heslo'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.edit_user'
+      username_heading: '=> core.ref.username'
+      username_label: '=> core.ref.username'
     error:
       dependent_extensions_message: 'Není možné deaktivovat {extension} dokud nejsou deaktivována tato závislá rozšíření: {extensions}'
       generic_message: 'Jejda, něco se pokazilo. Obnov prosím stránku a zkus to znovu.'
@@ -397,9 +443,11 @@ core:
       not_found_message: 'Požadovaný zdroj nebyl nalezen.'
       permission_denied_message: 'Na tuto operaci nemáte dostatečná práva.'
       rate_limit_exceeded_message: 'Jsi moc rychlý, zpomal.'
+    loading_indicator:
+      accessible_label: '=> core.ref.loading'
     number_suffix:
-      kilo_text: ' tisíc'
-      mega_text: ' miliónů'
+      kilo_text: tisíc
+      mega_text: miliónů
     series:
       glue_text: ', '
       three_text: '{first}, {second} a {third}'
@@ -421,10 +469,12 @@ core:
     delete_forever: 'Smazat navždy'
     discussions: Diskuze
     edit: Upravit
+    edit_user: 'Upravit uživatele'
     email: E-Mail
     icon: Ikona
     icon_text: 'Vložte název <a>FontAwesome</a> ikony, <em>i s</em> <code>fas fa-</code> prefixem.'
     load_more: 'Načíst další'
+    loading: Načítání...
     log_in: 'Přihlásit se'
     log_out: 'Odhlásit se'
     mark_all_as_read: 'Označit vše jako přečtené'
@@ -453,7 +503,7 @@ core:
     content:
       javascript_disabled_message: 'Tento web funguje nejlépe v moderním prohlížeči se zapnutým JavaScriptem.'
       load_error_message: 'Něco se pokazilo, když jsi se pokusil načíst plnou verzi tohoto webu. Zkus stránku natvrdo obnovit.'
-      loading_text: Načítání…
+      loading_text: '=> core.ref.loading'
     discussion:
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
