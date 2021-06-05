@@ -62,6 +62,7 @@ composer require madnest/flarum-lang-czech
 | Extension | Status |
 | --- | --- |
 | [Emoji Picker by Clarkwinkelmann](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/clarkwinkelmann-emojionearea/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-emojionearea/cs/) |
+| [Profile Cover by Sycho](https://github.com/SychO9/flarum-profile-cover) | [![Translation status](https://weblate.rob006.net/widgets/flarum/cs/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-profile-cover/cs/) |
 
 <!-- various-extensions-list-stop -->
 
