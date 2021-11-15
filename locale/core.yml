@@ -114,6 +114,11 @@ core:
       no_settings: 'Toto rozšíření nemá žádné nastavení.'
       open_modal: 'Otevřít nastavení'
       permissions_title: Oprávnění
+      purge_button: Vyčistit
+      readme:
+        button_label: README
+        no_readme: 'Vypadá to, že toto rozšíření nemá soubor README'
+        title: '{extName} dokumentace'
       saved_message: 'Změny byly uloženy.'
       uninstall_button: Odinstalovat
     header:
@@ -315,7 +320,9 @@ core:
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
       profile_button: Profil
+      search_clear_button_accessible_label: 'Vymazat vyhledávání'
       search_placeholder: 'Prohledat fórum'
+      search_role_label: 'Prohledat forum'
       session_dropdown_accessible_label: 'Přepnutí rozevírací nabídky možností relace'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
@@ -426,6 +433,8 @@ core:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Znovu odeslat potvrzovací zprávu'
       sent_message: Odesláno
+    welcome_hero:
+      hide: 'Skrýt uvítací zprávu'
   group:
     admin: Správce
     admins: Správci
@@ -438,6 +447,7 @@ core:
   lib:
     badge:
       hidden_tooltip: Skryté
+    debug_button: Debugovat
     dropdown:
       toggle_dropdown_accessible_label: 'Přepínání rozbalovacího menu'
     edit_user:
@@ -445,6 +455,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Skupiny
+      nothing_available: 'Nemáte práva na úpravu tohoto uživatele.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Nastavit nové heslo'
@@ -461,6 +472,10 @@ core:
       rate_limit_exceeded_message: 'Jsi moc rychlý, zkus to prosím za několik sekund znovu.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    modal:
+      close: Zavřít
+    nav:
+      drawer_button: 'Otevřít navigační panel'
     number_suffix:
       kilo_text: tisíc
       mega_text: miliónů
@@ -475,6 +490,7 @@ core:
     change_email: 'Změnit e-mail'
     change_password: 'Změnit heslo'
     color: Barva
+    confirm_email: 'Potvrdit email'
     confirm_password: 'Potvrdit heslo'
     confirmation_email_sent: 'Poslali jsme potvrzovací zprávu na adresu {email}. Pokud brzy nedorazí, zkus se kouknout do složky s nevyžádanou poštou.'
     custom_footer_text: 'Přidej HTML, která se zobrazí na samém konci stránky.'
@@ -487,6 +503,7 @@ core:
     edit: Upravit
     edit_user: 'Upravit uživatele'
     email: E-Mail
+    extensions: Rozšíření
     icon: Ikona
     icon_text: 'Vložte název <a>FontAwesome</a> ikony, <em>i s</em> <code>fas fa-</code> prefixem.'
     load_more: 'Načíst další'
@@ -516,6 +533,17 @@ core:
     write_a_reply: Odpovědět…
     you: Ty
   views:
+    admin:
+      extensions:
+        disable: Zakázat
+        empty: 'Žádné nainstalované rozšíření'
+        enable: Povolit
+        name: 'Název rozšíření'
+        package_name: 'Název balíčku'
+        version: Verze
+      title: Administrace
+    confirm_email:
+      text: 'Pro potvrzení emailu u vašeho účtu klikněte na tlačítko níže.'
     content:
       javascript_disabled_message: 'Tento web funguje nejlépe v moderním prohlížeči se zapnutým JavaScriptem.'
       load_error_message: 'Něco se pokazilo, když jsi se pokusil načíst plnou verzi tohoto webu. Zkus stránku natvrdo obnovit.'
